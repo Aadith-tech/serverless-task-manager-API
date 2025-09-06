@@ -28,14 +28,29 @@ The app is designed as a **desktop-first dashboard**, optimized for laptop/deskt
 - ⚡ Optimized for desktop users
 
 ---
+serverless-task-manager/
+│── src/ # React frontend source code
+│ ├── components/ # UI components (Task forms, Layout, etc.)
+│ ├── hooks/ # Custom hooks (window width, etc.)
+│ ├── types/ # TypeScript types
+│ ├── utils/ # API utility functions
+│ ├── App.tsx # Main app file
+│ └── main.tsx # Entry point
+│
+│── Lambda/ # AWS Lambda functions (Python)
+│ ├── Create_new_task.py
+│ ├── Delete_task.py
+│ ├── Get_specific_task.py
+│ └── List_all_task_user.py
+│
+│── public/ # Architecture diagram
+│ ├── Cloud_project_1.png
+│
+│── public/ # Static files
+│── package.json # Dependencies
+│── vite.config.ts # Vite config
+│── README.md # Documentation
 
-## 🔧 Project Structure
-/src
-/components # React components (UI)
-/lambdas # Lambda function code
-/public
-index.html
-Cloud_project_1.png # Architecture diagram
 
 ## 🚀 Deployment Steps
 1. Build the frontend:
