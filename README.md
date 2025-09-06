@@ -51,4 +51,4 @@ Cloud_project_1.png # Architecture diagram
    aws cloudfront create-distribution --origin-domain-name your-bucket-name.s3.amazonaws.com
 
 🧑‍💻 Author
-   Built by [Aadith Thillai Arasu] — exploring serverless and cloud-native applications.
+   Built by Aadith Thillai Arasu — exploring serverless and cloud-native applications.
