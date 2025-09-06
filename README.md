@@ -28,6 +28,7 @@ The app is designed as a **desktop-first dashboard**, optimized for laptop/deskt
 - ⚡ Optimized for desktop users
 
 ---
+```bash
 ## serverless-task-manager/
 │── src/                     # React frontend source code
 │   ├── components/          # UI components (About, CreateTask, FetchUserTasks, etc.)
@@ -51,7 +52,7 @@ The app is designed as a **desktop-first dashboard**, optimized for laptop/deskt
 │── README.md                # Project documentation
 │── package.json             # Dependencies & scripts
 │── vite.config.ts           # Vite configuration
-
+```
 
 
 ## 🚀 Deployment Steps
