@@ -29,27 +29,29 @@ The app is designed as a **desktop-first dashboard**, optimized for laptop/deskt
 
 ---
 serverless-task-manager/
-│── src/ # React frontend source code
-│ ├── components/ # UI components (Task forms, Layout, etc.)
-│ ├── hooks/ # Custom hooks (window width, etc.)
-│ ├── types/ # TypeScript types
-│ ├── utils/ # API utility functions
-│ ├── App.tsx # Main app file
-│ └── main.tsx # Entry point
+│── src/                     # React frontend source code
+│   ├── components/          # UI components (About, CreateTask, FetchUserTasks, etc.)
+│   ├── hooks/               # Custom hooks (useWindowWidth, etc.)
+│   ├── types/               # TypeScript types
+│   ├── utils/               # Utility functions (API fetch, etc.)
+│   ├── App.tsx              # Main app component
+│   └── main.tsx             # React entry point
 │
-│── Lambda/ # AWS Lambda functions (Python)
-│ ├── Create_new_task.py
-│ ├── Delete_task.py
-│ ├── Get_specific_task.py
-│ └── List_all_task_user.py
+│── Lambda/                  # AWS Lambda functions (Python backend)
+│   ├── Create_new_task.py   # Lambda for creating tasks
+│   ├── Delete_task.py       # Lambda for deleting tasks
+│   ├── Get_specific_task.py # Lambda for fetching a specific task
+│   └── List_all_task_user.py# Lambda for listing all tasks for a user
 │
-│── public/ # Architecture diagram
-│ ├── Cloud_project_1.png
+│── public/                  # Architecture diagram 
+│   ├── Cloud_project_1.png
 │
-│── public/ # Static files
-│── package.json # Dependencies
-│── vite.config.ts # Vite config
-│── README.md # Documentation
+│
+│── .gitignore               # Ignore node_modules, dist, env files
+│── README.md                # Project documentation
+│── package.json             # Dependencies & scripts
+│── vite.config.ts           # Vite configuration
+
 
 
 ## 🚀 Deployment Steps
