@@ -28,7 +28,7 @@ The app is designed as a **desktop-first dashboard**, optimized for laptop/deskt
 - ⚡ Optimized for desktop users
 
 ---
-serverless-task-manager/
+## serverless-task-manager/
 │── src/                     # React frontend source code
 │   ├── components/          # UI components (About, CreateTask, FetchUserTasks, etc.)
 │   ├── hooks/               # Custom hooks (useWindowWidth, etc.)
