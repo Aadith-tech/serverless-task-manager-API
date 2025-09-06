@@ -42,7 +42,7 @@ The app is designed as a **desktop-first dashboard**, optimized for laptop/deskt
 │   ├── Create_new_task.py   # Lambda for creating tasks
 │   ├── Delete_task.py       # Lambda for deleting tasks
 │   ├── Get_specific_task.py # Lambda for fetching a specific task
-│   └── List_all_task_user.py# Lambda for listing all tasks for a user
+│   └── List_all_task_user.py # Lambda for listing all tasks for a user
 │
 │── public/                  # Architecture diagram 
 │   ├── Cloud_project_1.png
